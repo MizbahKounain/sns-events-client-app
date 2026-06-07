@@ -48,16 +48,18 @@ body {
   .text-gradient-radiant {
   background-image: linear-gradient(
     90deg,
-    #FFD700 0%,
-    #FFE7A0 30%,
-    #FFB3E6 65%,
-    #FF69B4 100%
+    #fffffe 20%,
+    #e246d3 40%,
+    #dcd94b 65%,
+    #e90b7a 100%
   );
 
   background-size: 200% 200%;
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+
+  animation: shimmer 5s linear infinite;
 }
 
   /* Premium glow ring on hover */
@@ -157,9 +159,10 @@ body {
 
 /* Extra glow behind hero title */
 .hero-title-glow {
+  -webkit-text-stroke: 1px rgba(255, 215, 0, 0.25);
+
   text-shadow:
-    0 0 8px rgba(255, 215, 0, 0.25),
-    0 0 18px rgba(255, 105, 180, 0.15);
+    0 0 3px rgba(255, 215, 0, 0.25);
 }
 
 /* Cursor glow helper (positioned from a React component) */
