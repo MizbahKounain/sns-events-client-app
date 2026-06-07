@@ -4,7 +4,6 @@ import { useEffect } from "react";
 
 export default function CursorGlow() {
   useEffect(() => {
-    // Initial center position when page loads
     document.documentElement.style.setProperty(
       "--x",
       `${window.innerWidth / 2}px`
@@ -16,18 +15,22 @@ export default function CursorGlow() {
     );
 
     const onMove = (e: MouseEvent) => {
-      requestAnimationFrame(() => {
-        document.documentElement.style.setProperty("--x", `${e.clientX}px`);
-        document.documentElement.style.setProperty("--y", `${e.clientY}px`);
-      });
+      document.documentElement.style.setProperty(
+        "--x",
+        `${e.clientX}px`
+      );
+
+      document.documentElement.style.setProperty(
+        "--y",
+        `${e.clientY}px`
+      );
     };
 
-    window.addEventListener("mousemove", onMove, { passive: true });
+    window.addEventListener("mousemove", onMove, {
+      passive: true,
+    });
 
-    return () => {
+    return () =>
       window.removeEventListener("mousemove", onMove);
-    };
   }, []);
-
-  return <div className="cursor-glow hidden md:block" aria-hidden />;
 }

@@ -61,7 +61,7 @@ export default function Hero() {
           />
 
           <h1 className="relative font-display font-black leading-[0.92] tracking-tight">
-            <span className="hero-title-glow block text-[clamp(3rem,10vw,7.2rem)] text-gradient-radiant">
+            <span className="hero-title-glow block text-[clamp(3rem,10vw,7.2rem)] text-gradient-radiant tracking-tight drop-shadow-[0_0_40px_rgba(255,215,0,0.5)]">
               SNS Events
             </span>
           </h1>

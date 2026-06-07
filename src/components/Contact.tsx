@@ -15,7 +15,7 @@ const items = [
 export default function Contact() {
   return (
     <section id="contact" className="relative py-24 sm:py-32">
-      <div className="absolute inset-0 bg-gradient-to-b from-[#120a18] to-[#0c0a0e]" />
+      <div className="absolute inset-0 bg-black/55" />
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionHeading title="Contact SNS Events" description="Let's plan something unforgettable." light />
 

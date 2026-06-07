@@ -37,7 +37,7 @@ export default function HeroCinematicBackground({
             alt=""
             fill
             priority
-            className="object-cover object-center scale-110 blur-[1px] brightness-[0.65] saturate-[1.1]"
+            className="object-cover object-center scale-110 blur-[2px] brightness-[0.65] saturate-[1.1]"
             sizes="100vw"
           />
         </div>
