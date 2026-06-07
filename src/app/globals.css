@@ -46,19 +46,19 @@ body {
 
   /* Animated radiant text for the main brand */
   .text-gradient-radiant {
-    background-image: linear-gradient(90deg,
-        #FFD700 0%,
-        #FFF4C2 35%,
-        #FF8AC7 70%,
-        #FF4FA3 100%);
+  background-image: linear-gradient(
+    90deg,
+    #FFD700 0%,
+    #FFE7A0 30%,
+    #FFB3E6 65%,
+    #FF69B4 100%
+  );
 
-    background-size: 200% 200%;
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-
-    animation: shimmer 12s linear infinite;
-  }
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
 
   /* Premium glow ring on hover */
   .hover-glow {
@@ -158,9 +158,8 @@ body {
 /* Extra glow behind hero title */
 .hero-title-glow {
   text-shadow:
-    0 0 40px rgba(255, 215, 0, 0.45),
-    0 0 80px rgba(255, 77, 166, 0.25),
-    0 0 120px rgba(106, 13, 173, 0.2);
+    0 0 8px rgba(255, 215, 0, 0.25),
+    0 0 18px rgba(255, 105, 180, 0.15);
 }
 
 /* Cursor glow helper (positioned from a React component) */
