@@ -82,7 +82,7 @@ export default function Hero() {
           transition={{ delay: 0.4, duration: 0.6 }}
           className="mx-auto mt-3 max-w-xl text-sm text-white/60 sm:text-base"
         >
-          Mandap · Floral Arches · Chandeliers · Haldi & Mehendi · Reception Décor
+          Mandap · Haldi & Mehendi · Reception Decor
         </motion.p>
 
         <motion.div

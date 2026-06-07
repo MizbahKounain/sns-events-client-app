@@ -14,7 +14,7 @@ export default function Services() {
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionHeading
           title="Premium Decoration Services"
-          description="SNS Events is a premier event planner based in Chikkamagaluru, Karnataka, delivering stunning wedding, haldi, mehendi, birthday, reception, and customized event decorations across India."
+          description="SNS Events is a premier event planner based in Chikkamagaluru, Karnataka, delivering stunning overall customized event planner across India."
           light
         />
 
