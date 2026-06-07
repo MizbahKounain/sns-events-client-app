@@ -17,6 +17,16 @@ const syne = Syne({
 export const metadata: Metadata = {
   title: "SNS Events | Luxury Event Decoration",
   description: "Turning Celebrations Into Beautiful Memories — premium haldi, wedding, reception & party décor.",
+  keywords: [
+    "event decoration",
+    "wedding decoration",
+    "haldi decoration",
+    "mehendi decoration",
+    "birthday decoration",
+    "event management",
+    "Chikmagalur event planner",
+    "Karnataka wedding decoration",
+  ],
 };
 
 export default function RootLayout({
